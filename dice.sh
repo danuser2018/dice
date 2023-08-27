@@ -214,6 +214,8 @@ print_ayuda() {
   echo "$0 utiliza Base64 para estandarizar el contenido del mensaje, y posteriormente"
   echo "utiliza el algoritmo DICE para encriptar los datos"
   echo ""
+  echo "Para más ayuda, puedes consultar <https://github.com/danuser2018/dice>"
+  echo ""
 }
 
 print_clave_incorrecta() {
@@ -224,7 +226,7 @@ print_clave_incorrecta() {
 print_version() {
   echo "$0 v1.0.0"
   echo "Copyright (C) 2023 danuser2018"
-  echo "Este software se adhiere a la licencia MIT <https://mit-license.org/>"
+  echo "Este software se adhiere a la licencia MIT <https://github.com/danuser2018/dice/blob/main/LICENSE>"
 }	
 
 mkdir -p ~/.dice
