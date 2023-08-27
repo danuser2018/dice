@@ -105,6 +105,13 @@ sudo apt-get install coreutils
 ```
 ## Instalación
 
+Para instalar la herramienta, solo debes ejecutar:
+
+```bash
+curl -LO https://raw.githubusercontent.com/danuser2018/dice/main/dice.sh
+sudo install dice.sh /usr/local/bin/dice
+```
+
 ## Primeros pasos
 
 Lo primero será generar una nueva clave de encriptación para nuestros mensajes. Inicialmente, **dice** utiliza la clave *abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/* para cifrar/descifrar mensajes.
